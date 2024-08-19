@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Formulário em php</title>
+</head>
+
+<body>
+    <div class="central">
+        <form action="cad.php" method="post" class="formulario">
+            <label for="">Nome</label>
+            <input type="text" name="nome" id="">
+            <label for=""> Escolaridade</label>
+
+            <select class="select" >
+                <option value=""  aria-disabled="true" disabled="true" selected="true">Escolha usa escolaridade:</option>
+                <option value="">Ensino Fundamental</option>
+                <option value="">Ensino Mèdio</option>
+                <option value="">Ensino Superior</option>
+            </select>
+
+            <div class="radios">
+                <div>
+                    <input type="radio" name="genero" id=""  value="M" class="botoesRadio">
+                    <label for=""> Masculino </label>
+                </div>
+                <div>
+                    <input type="radio" name="genero" id="" value="F" class="botoesRadio">
+                    <label for=""> Feminino </label>
+                </div>
+                <div>
+                    <input type="radio" name="genero" id="" value="o" class="botoesRadio">
+                    <label for=""> Pato </label>
+                </div>
+            </div>
+            
+            <span> Comentários</span>
+             <textarea name="textArea" id="textArea" > </textarea>
+            
+             <button type="submit "></button>
+        </form>
+    </div>
+</body>
+
+</html>
