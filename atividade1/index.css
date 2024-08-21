@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.box form{
+    background-color: rgba(147, 147, 147, 0.555);
+    padding: 2%;
+    border-radius: 15px;
+    width: 25rem;
+}
+
+.box form button{
+    display: flex;
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+}
+
+:root{
+    font-size: 20px;
+    font-weight: bold;
+}
